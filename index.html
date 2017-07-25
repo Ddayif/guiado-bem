@@ -4,11 +4,49 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="sass/main.css">
 	<title>Ejercicio Guiado BEM</title>
 	<!-- Link archivo css-->
 	
 </head>
 <body>
-
+	<header>
+		<ul class="a-menu">
+			<li class="a-menu__item"><a class="a-menu__item__link" href="#">BLOG</a></li>
+			<li class="a-menu__item"><a class="a-menu__item__link" href="#">BLOG</a></li>
+			<li class="a-menu__item"><a class="a-menu__item__link" href="#">BLOG</a></li>
+		</ul>
+	</header>
+	<section>
+		<div class="article">
+			<h2 class="article__title">Mermeladas</h2>
+			<p class="article__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.</p>
+			<img class="article__img" src="img/mermeladas pirque.jpg">
+		</div>
+		<div class="article article--green">
+			<h2 class="article__title">Comida Saludable</h2>
+			<p class="article__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.</p>
+			<img class="article__img" src="img/comida-vegana-230x130.jpg">
+		</div>
+		<div class="article article--green">
+			<h2 class="article__title">Mermeladas</h2>
+			<p class="article__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.</p>
+			<img class="article__img" src="img/mermeladas pirque.jpg">
+		</div>
+	</section>
+	<footer class="pie">
+		<p class="pie__item--center">
+			Create by Someone
+		</p>
+	</footer>
 </body>
 </html>
